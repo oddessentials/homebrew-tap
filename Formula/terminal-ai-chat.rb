@@ -1,23 +1,23 @@
 class TerminalAiChat < Formula
   desc "Terminal client for your ChatGPT web session"
   homepage "https://github.com/oddessentials/terminal-ai-chat-releases"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.0/terminal-ai-chat-aarch64-apple-darwin"
-      sha256 "acb28935299999cda41060660822f8254220a73fd789187c55f5a7da0d413a0d"
+      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.1/terminal-ai-chat-aarch64-apple-darwin"
+      sha256 "75eeb35cd6b02034e76b2c0d4c9a113873aa36a4dee9d1964db57a366e3831d8"
     end
     on_intel do
-      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.0/terminal-ai-chat-x86_64-apple-darwin"
-      sha256 "c76dadfca94b7518315e1628dc80d0e01d6309a43e18a106dde5934c1b981482"
+      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.1/terminal-ai-chat-x86_64-apple-darwin"
+      sha256 "488160761a98c3bd61686224cf011cd9965f5fbd32142c6108ac00da80c25861"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.0/terminal-ai-chat-x86_64-unknown-linux-musl"
-      sha256 "b2a6d6a60dea607f8cc2b675d41a0bfa37a86d1b6b2e491758c01a719521a858"
+      url "https://github.com/oddessentials/terminal-ai-chat-releases/releases/download/v0.2.1/terminal-ai-chat-x86_64-unknown-linux-musl"
+      sha256 "26d1999c64a717e386a7b0e19c8e650491931abc7acb411c47c8a6e65551c44f"
     end
   end
 
